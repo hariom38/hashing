@@ -2,43 +2,37 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    cout<<"Hello meet"<<endl;
+    cout<<"Input size of array"<<endl;
     int n;
     cin>>n;
-    vector <int >arr(n);
-    cout<<"Taking input of array element "<<endl;
+    vector<int>arr(n);
+    cout<<"Input array element"<<endl;
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    unordered_map<int ,int>mp;
-    for(int i=0;i<n;i++){
-        if(mp.find(arr[i])==mp.end()){
-            mp[arr[i]]=1;
-        }else{
-            mp[arr[i]]++;
-        }
-    }
-    int elemt_max_freq=0;
-    int max_freq=INT16_MIN;
-    int elemt_min_freq=0;
-    int min_freq=INT16_MAX;
+    int max_freq_element;
+    int min_freq_element;
+    int max_freq=INT_MIN;
+    int min_freq=INT_MAX;
+    cout<<"Optimized approach"<<endl;
+    unordered_map<int,int>mp;
 
+    for(int i=0;i<n;i++){
+        mp[arr[i]]++;
+    }
     for(auto &pair :mp){
         if(pair.second>max_freq){
             max_freq=pair.second;
-            elemt_max_freq=pair.first;
+            max_freq_element=pair.first;
         }
-        if(pair.second <min_freq){
+        if(pair.second<min_freq){
             min_freq=pair.second;
-            elemt_min_freq=pair.first;
+            min_freq_element=pair.first;
         }
-
-
     }
-    cout<<"element "<<elemt_max_freq<<" with max freq "<<max_freq<<endl;
-    cout<<"element "<<elemt_min_freq<<" with min freq "<<min_freq<<endl;
-
+    cout<<"MAX FREQUENCY ELEMENT--> "<<max_freq_element<<" with max freq--> "<<max_freq<<endl;
+    cout<<"MIN FREQUENCY ELEMENT--> "<<min_freq_element<<" with min freq--> "<<min_freq<<endl;
 
     return 0;
 }
-//tc------>o(n)
-//sc------>o(n)
