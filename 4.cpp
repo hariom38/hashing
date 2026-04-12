@@ -1,7 +1,5 @@
 //count all  (i,j) pairs such that b[i]-b[j]==k
 
-
-
 #include<bits/stdc++.h>
 using namespace std;
 int cout_all_pair(vector<int>&arr ,int k){
