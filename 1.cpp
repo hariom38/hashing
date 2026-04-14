@@ -1,6 +1,6 @@
 //elemnt with max freq and min freq 
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std; 
 int main(){
     cout<<"Hello meet"<<endl;
     cout<<"Input size of array"<<endl;
