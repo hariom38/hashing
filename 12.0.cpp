@@ -3,8 +3,6 @@
 // Input: arr[] = [1, 1, 2, 2, 2, 1]
 // Output: 5
 // Explanation: distance for 1 is: 5-0 = 5, distance for 2 is : 4-2 = 2, So max distance is 5.
-
-
 #include<bits/stdc++.h>
 using namespace std;
 
