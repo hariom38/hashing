@@ -2,7 +2,7 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-int cout_all_pair(vector<int>&arr ,int k){
+int cout_all_pair(vector<int>&arr ,int k){ 
     int n=arr.size();
     unordered_map<int ,int>mp;
     
