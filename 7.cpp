@@ -1,7 +1,7 @@
 //count of number of subarrays with sum ==k
 // nums=>[1,0,1,2,10,8]
 // k=3
-// ans=2
+// ans=2 
 
 #include<bits/stdc++.h>
 using namespace std;
