@@ -8,7 +8,7 @@ using namespace std;
 
 vector<int>prefix_array(vector<int >arr){
     int n=arr.size();
-    vector<int>prefix(n+1,0);
+    vector<int>prefix(n+1,0); 
     for(int i=0;i<n;i++){
         prefix[i]=prefix[i-1]+arr[i];
     }
