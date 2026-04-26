@@ -2,7 +2,7 @@
 //find sum of range [l to r ] where (l<=r) using prefix sum;
 // arr=====>[3 4 1 2 1 4]
 // l=2,r=5
-// ans------>8
+// ans------>8 
 #include<bits/stdc++.h>
 using namespace std;
 
