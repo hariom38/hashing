@@ -4,7 +4,7 @@
 // k=4
 // output -->Max Length: 4
 //           Min Length: 2
-
+ 
 #include<bits/stdc++.h>
 using namespace std;
 //bruteforce  approach
