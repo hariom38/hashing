@@ -3,7 +3,7 @@
 using namespace std; 
 int main(){
     cout<<"Hello meet"<<endl;
-    cout<<"Input size of array"<<endl;
+    cout<<"Input size of array"<<endl; 
     int n;
     cin>>n;
     vector<int>arr(n);
