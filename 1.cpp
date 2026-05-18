@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std; 
 int main(){
-    cout<<"Hello meet"<<endl;
+    cout<<"Hello meet"<<endl; 
     cout<<"Input size of array"<<endl; 
     int n;
     cin>>n;
