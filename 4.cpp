@@ -7,7 +7,7 @@ int cout_all_pair(vector<int>&arr ,int k){
     unordered_map<int ,int>mp;
     
     int count=0;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){ 
         int complement=k+arr[i];
         if(mp.find(complement) !=mp.end()){
             count+=mp[complement];
