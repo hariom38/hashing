@@ -10,7 +10,7 @@ int cout_all_pair(vector<int>&arr ,int k){
     for(int i=0;i<n;i++){
         int complement=k-arr[i];
         if(mp.find(complement) !=mp.end()){
-            count+=mp[complement];
+            count+=mp[complement]; 
         }
         mp[arr[i]]++;
     }
