@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 bool contin_nearby_dublicate(vector<int>& arr, int k){
-    unordered_map<int,int>mp;
+    unordered_map<int,int>mp; 
     int n=arr.size();
     for(int i=0;i<n;i++){
         
