@@ -7,7 +7,7 @@
 using namespace std;
  
 //bruteforce approach
-class Solution {
+class Solution  
   public:
     int maxDistance(vector<int> &arr) {
         // Code 
