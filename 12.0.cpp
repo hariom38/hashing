@@ -9,7 +9,7 @@ using namespace std;
 //bruteforce approach
 class Solution  
   public:
-    int maxDistance(vector<int> &arr) {
+    int maxDistance(vector<int> &arr) { 
         // Code 
         //sabse phle sare same  element ki distance ek dosre se nikall li ,fir sabbi dintance ko temp me daal dia maximum distance ko output kr dia
         int n=arr.size();
