@@ -6,7 +6,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+ 
 // bruteforce approach 
 int count_of_subarray(vector<int>&arr,int k){
     int count=0;
